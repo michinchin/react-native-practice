@@ -1,0 +1,21 @@
+{
+  "name": "server-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/client": "3.7.17",
+    "@apollo/server": "^4.9.4",
+    "graphql": "^16.8.1",
+    "invariant": "2.2.4"
+  },
+  "devDependencies": {
+    "@types/invariant": "2.2.35",
+    "@types/node": "20.4.2",
+    "ts-node": "10.9.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.1.6"
+  }
+}
